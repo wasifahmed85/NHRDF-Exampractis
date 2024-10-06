@@ -1,0 +1,74 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    color: rgb(207, 170, 122);
+    text-decoration: underline rgb(207, 170, 122);
+}
+/* header nav section */
+.header_section .nav-link{
+    margin-left:20px ;
+    transition: all .4s;
+}
+.header_section .nav-link:hover{
+
+    color:salmon;
+    text-decoration: underline salmon;
+}
+.header_section  .nav-link.active{
+    color: salmon;
+}
+.carousel-indicators [data-bs-target] {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+/* -------------------------------------------homa page end---------------------------------- */
+/* ----------------------------------------- about benner section---------------------------- */
+.a_benner_section{
+    background-image: url(imags/about_background.jpg);
+    background-size: cover;
+   min-height: 50vh;
+   width: 100%;
+}
+.a_benner_section .about_head{
+    color: antiquewhite;
+}
+/* feadback section */
+.feadback_sectin .btn{
+    text-align: right;
+    display: inline-block;
+ 
+}
+/* footer section */
+.footer_section  {
+
+    background-color: red;
+    color: white;
+    padding: 30px;
+}
+/* --------------------------------------------contact section--------------------- */
+/* con banner section */
+.con_benner_section{
+    background-image: url(imags/contact_back.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+
+}
+.con_benner_section .about_head{
+    color: antiquewhite;
+}
+/* -------------------------------------FAQ section----------------------- */
+.faq_benner_section{
+    background-image: url(imags/faqback.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    width: 100%;
+
+}
+.faq_benner_section .about_head{
+    color: antiquewhite;
+}
+
